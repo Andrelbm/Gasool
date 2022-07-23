@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Gasool",
+    "slug": "Gasool",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#14b0bf"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions":[],
+
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8798044938389788~2519951086"
+      },
+      "package": "com.devser.gasool",
+      "versionCode": 2
+
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
